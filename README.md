@@ -26,10 +26,24 @@ A free user-account on [www.lucidchart.com](www.lucidchart.com) is required to b
 
 ![image](screenshots/img7.png)
 
-### Created stack
+### Created stack - stack info
 ![image](screenshots/img8.png)
 
 ![image](screenshots/img8-1.png)
+
+### Created stack - events
+![image](screenshots/img8-2.png)
+### Created stack - resources
+![image](screenshots/img8-3.png)
+### Created stack - outputs
+![image](screenshots/img8-4.png)
+### Created stack - parameters
+![image](screenshots/img8-5.png)
+### Created stack - template
+![image](screenshots/img8-6.png)
+### Created stack - change sets 
+![image](screenshots/img8-7.png)
+
 
 # Create servers
 ![image](screenshots/img9.png)
