@@ -22,7 +22,7 @@ A free user-account on [www.lucidchart.com](www.lucidchart.com) is required to b
 
 # Check the region in the create.sh file
 ./create.sh UdaGramApp network.yml network-parameters.json
-![image](screenshots/img6.png)
+![image](screenshots/img6-1.png)
 
 ![image](screenshots/img7.png)
 
