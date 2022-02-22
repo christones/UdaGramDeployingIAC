@@ -26,15 +26,20 @@ A free user-account on [www.lucidchart.com](www.lucidchart.com) is required to b
 
 ![image](screenshots/img7.png)
 
-# Create servers
+### Created stack
 ![image](screenshots/img8.png)
 
-# Change the AMI ID and key-pair name in the servers.yml
+![image](screenshots/img8-1.png)
+
+# Create servers
 ![image](screenshots/img9.png)
+
+# Change the AMI ID and key-pair name in the servers.yml
+![image](screenshots/img10.png)
 
 # Check the region in the update.sh file
 ./update.sh mySecStack servers.yml server-parameters.json
-`![image](screenshots/img10.png)
+`![image](screenshots/img11.png)
 json
 
 ``
