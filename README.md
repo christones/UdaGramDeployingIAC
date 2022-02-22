@@ -1,30 +1,39 @@
-## ND9991 - C2- Infrastructure as Code - Supporting Material and Starter Code
-This folder provides the supporting material and starter code for the "ND9991 - C2- Infrastructure as Code" course. This folder contains the following folders:
-1. project_starter - It contains the starter code.
-2. supporting_material - It contains the essential files (.yml, .json, .bat, .sh, and .jpeg) that were referred in the different lessons of this course.
-
-In addition to the current repo, there is one more repository, [nd9991-c2-Infrastructure-as-Code-v1-Exercises_Solution](https://github.com/udacity/nd9991-c2-Infrastructure-as-Code-v1-Exercises_Solution) that contains the solution to the exercises and video demos.  
+# UdaGramDeployingIAC
+My company is creating an Instagram clone called Udagram.  Developers want to deploy a new application to the AWS infrastructure.  I have been tasked with provisioning the required infrastructure and deploying a dummy application, along with the necessary supporting software.  This needs to be automated so that the infrastructure can be discarded as soon as the testing team finishes their tests and gathers their results. 
 
 ### Dependencies
 ##### 1. AWS account
-You would require to have an AWS account to be able to build cloud infrastructure.
+I require to have an AWS account to be able to build cloud infrastructure.
+![image](screenshots/img1.png)
 
 ##### 2. VS code editor
-An editor would be helpful to visualize the image as well as code. Download the VS Code editor [here](https://code.visualstudio.com/download).
+An editor would be helpful to visualize the image as well as code. 
+![image](screenshots/img2.png)
 
 ##### 3. An account on www.lucidchart.com
 A free user-account on [www.lucidchart.com](www.lucidchart.com) is required to be able to draw the web app architecture diagrams for AWS.
+![image](screenshots/img3.png)
 
-
-### How to run the supporting material?
-You can run the supporting material in two easy steps:
-```bash
 # Ensure that the AWS CLI is configured before runniing the command below
+![image](screenshots/img4.png)
+
 # Create the network infrastructure
+![image](screenshots/img5.png)
+
 # Check the region in the create.sh file
-./create.sh myFirstStack network.yml network-parameters.json
+./create.sh UdaGramApp network.yml network-parameters.json
+![image](screenshots/img6.png)
+
 # Create servers
+![image](screenshots/img7.png)
+
 # Change the AMI ID and key-pair name in the servers.yml
+![image](screenshots/img8.png)
+
 # Check the region in the update.sh file
 ./update.sh mySecStack servers.yml server-parameters.json
-```
+`![image](screenshots/img9.png)
+json
+
+``
+
